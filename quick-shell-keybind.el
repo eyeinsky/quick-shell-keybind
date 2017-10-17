@@ -74,6 +74,7 @@
 		  `(lambda ()
 		     (interactive)
 		     (with-current-buffer ',buffer
+		       (goto-char (point-max))
 		       (mapcar #'quick-shell-keybind--send ',commands)))))
 
 (provide 'quick-shell-keybind)
