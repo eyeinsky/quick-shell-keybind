@@ -5,5 +5,5 @@ Interactive command which, when run, prompts you for
 2. buffer name which has a comint terminal
 3. commands; submitting an empty string stops prompting for more commands
 
-And that's it! Now, on entering the key sequence runs the commands
-on the designated buffer.
+And that's it! Now, entering the key sequence runs the commands
+in the designated buffer.
